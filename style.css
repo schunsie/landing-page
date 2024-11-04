@@ -7,17 +7,31 @@ body {
     padding: 0;
 }
 
-header {
+
+header,
+.hero {
     background-color: #1F2937;
     color: white;
     display: flex;
+}
+
+header p,
+a {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+/* header */
+
+header {
     justify-content: space-between;
     align-items: center;
     padding: 16px 180px;
 }
 
 .logo {
-    font-size: 32px;
+    font-size: 24px;
+    color: #f9faf8;
     font-weight: 700;
 }
 
@@ -31,4 +45,54 @@ ul {
 a {
     text-decoration: none;
     color: whitesmoke;
+}
+
+/* hero */
+
+.hero h1 {
+    font-size: 40px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    padding: 0 180px;
+    gap: 48px;
+}
+
+.hero-image {
+    background-color: rgba(211, 211, 211, 0.40);
+    height: 240px;
+    width: 520px;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8px;
+    font-weight: 300;
+}
+
+.container {
+    flex-basis: 400px;
+}
+
+button {
+    padding: 8px 32px;
+    border-radius: 8px;
+    background: #3882f6;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
 }
