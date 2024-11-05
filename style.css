@@ -21,12 +21,16 @@ a {
     font-size: 18px;
 }
 
+body > * {
+    padding: 0 180px;
+}
+
 /* header */
 
 header {
     justify-content: space-between;
     align-items: center;
-    padding: 16px 180px;
+    padding-top: 16px;
 }
 
 .logo {
@@ -61,7 +65,6 @@ a {
     align-items: center;
     justify-content: center;
     height: 400px;
-    padding: 0 180px;
     gap: 48px;
 }
 
@@ -124,6 +127,33 @@ button {
 .information-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 48px;
     padding-top: 24px;
+}
+
+/* Quote section */
+
+.quote-container {
+    background: #e5e7eb;
+    display: flex;
+    justify-content: center;
+
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 300;
+    max-width: 800px;
+    padding: 104px 0;
+}
+
+.quote p {
+    text-align: right;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 8px;
 }
