@@ -76,9 +76,8 @@ a {
 }
 
 .hero p {
-    margin: 0;
     padding: 0;
-    margin-bottom: 8px;
+    margin: 0 0 16px;
     font-weight: 300;
 }
 
