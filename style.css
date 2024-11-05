@@ -65,8 +65,9 @@ a {
 .hero {
     align-items: center;
     justify-content: center;
-    height: 400px;
+    padding: 160px 120px;
     gap: 48px;
+    flex-wrap: wrap;
 }
 
 .hero-image {
