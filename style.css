@@ -157,3 +157,35 @@ button {
     font-size: 28px;
     margin-top: 8px;
 }
+
+/* alert section */
+
+.alert-container {
+    padding: 120px 180px;
+    display: flex;
+    justify-content: center;
+}
+
+.alert {
+    width: 1080px;
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 48px 0;
+    border-radius: 8px;
+}
+
+.inverted {
+    border: 2px white solid;
+    padding: 0px 48px;
+}
+
+.text .header {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.text {
+    font-weight: 300;
+}
